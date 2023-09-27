@@ -37,7 +37,7 @@ export function Button() {
         value={url}
         onChange={(e) => setUrl(e.target.value)}
       />
-      <button onClick={generateQRCode}>Generate QR Code</button>
+      <button onClick={generateQRCode}>QR code</button>
       <button onClick={toggleMetadata}>show deateiles</button>
       {qrCodeImage && (
         <div>
